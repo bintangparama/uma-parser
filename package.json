@@ -1,0 +1,17 @@
+{
+  "name": "local-lens-ocr",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Private, browser-only OCR with locally hosted Tesseract assets",
+  "scripts": {
+    "postinstall": "node scripts/vendor.mjs",
+    "start": "node scripts/sync-data.mjs && node scripts/server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "build": "node scripts/vendor.mjs && node scripts/sync-data.mjs"
+  },
+  "dependencies": {
+    "tesseract.js": "^6.0.1",
+    "@tesseract.js-data/eng": "^1.0.0"
+  }
+}

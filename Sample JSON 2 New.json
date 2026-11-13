@@ -1,0 +1,33 @@
+{
+  "outfitId": "101001",
+  "speed": 1624,
+  "stamina": 580,
+  "power": 1029,
+  "guts": 760,
+  "wisdom": 1203,
+  "strategy": "Senkou",
+  "distanceAptitude": "A",
+  "surfaceAptitude": "A",
+  "strategyAptitude": "A",
+  "mood": 2,
+  "skills": [
+    "100101",
+    "900141",
+    "900511",
+    "200032",
+    "200331",
+    "200362",
+    "200681",
+    "201031",
+    "201051",
+    "201072",
+    "201311",
+    "201082",
+    "201591",
+    "201651",
+    "201902",
+    "202371",
+    "202411"
+  ],
+  "forcedSkillPositions": {}
+}
